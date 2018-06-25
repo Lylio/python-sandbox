@@ -1,5 +1,5 @@
 # Flask Tutorial
-Examples of a website built with the Flask framework. 
+Example of a website built with the Flask framework. 
 <br>
 <br>
 
