@@ -1,4 +1,5 @@
-import requests, json, sys
+import requests, json, sys, urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 url = "https://lylie.free.beeceptor.com"
@@ -16,7 +17,7 @@ else:
    sys.exit(1)
 
 
-print("\n\n")
+print("\n")
 
 print("----- TEST POST -----")
 
@@ -28,3 +29,15 @@ if test2.status_code == 200:
    print("POST test PASSED", test2.status_code)
 else:
    print("POST test FAILED", test2.status_code)
+
+print("\n")
+
+print("----- TEST IMPORT JSON FILE -----")
+
+with open("test.json") as f:
+   data = json.load(f)
+   print(data)
+   print("\n")
+   data2 = json.dumps(data)
+   print(data2)
+
