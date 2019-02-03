@@ -19,7 +19,7 @@ print("\n---- POST TEST ----")
 with open('test.json') as f:
     payload = json.load(f)
     print(json.dumps(payload))
-postTest = requests.post("https://postb.in/1bwS9DnP", json=payload)  # Will need recent http://www.postb.in URL here
+postTest = requests.post("https://postb.in/zlM2zmvD", json=payload)  # Will need recent http://www.postb.in URL here
 
 if postTest.status_code == 200:
     print("POST test OK: " + str(postTest.status_code))
