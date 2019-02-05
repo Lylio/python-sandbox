@@ -1,4 +1,4 @@
-# Python Standard Library by Example
+# The Python 3 Standard Library by Example
 Examples from 'Python Standard Library by Example' (Doug Hellman).
 <br>
 <br>
