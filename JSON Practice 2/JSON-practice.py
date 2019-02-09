@@ -2,21 +2,8 @@
 
 import json
 
-data = {"people": [
-    {"name": "ali",
-     "age": "56",
-     "city": "Glasgow"},
-    {"name": "sammy",
-     "age": "45",
-     "city": "edinburgh"}]}
+with open('distros.json', 'r') as f:
+    distros_dict = json.load(f)
 
-
-print(data)
-
-print('\n------------------')
-
-loaded = json.loads(data)
-
-for name in loaded:
-    print(["people"][0]["name"])
-
+for distro in distros_dict:
+    print(distro['Name'])
