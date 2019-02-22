@@ -4,5 +4,4 @@ Several tutorials using Python. Includes examples from:
  - 'Python Mega Course' at StackSkills: https://stackskills.com/p/the-python-mega-course
  - 'Python Web Programming' at StackSkills: https://stackskills.com/p/python-web-programming-course
  - 'Python Standard Library by Example' (Doug Hellman).
-<br>
 ![Python Logo](https://github.com/Lylio/images/blob/master/python-logo.png)
