@@ -18,5 +18,5 @@ def my_third_method(x, y):
 if __name__ == '__main__':
     my_method()
     my_second_method()
-    my_third_method(56, 143)
+    my_third_method(54, 142)
 
