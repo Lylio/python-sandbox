@@ -1,0 +1,3 @@
+MAVEN_GROUP_ID = "com.lyle.yeah"
+POD_SCALE = 4
+CLUSTER = "PROD"
