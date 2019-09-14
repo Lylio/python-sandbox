@@ -1,4 +1,4 @@
-# Python General Practice
+# Python
 ![Python Logo](img/python.png)
 <br>
 <br>
