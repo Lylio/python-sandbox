@@ -1,8 +1,8 @@
 import time
 import requests
 
-API_TOKEN = "# Find this on your pushover.net account!#
-USER_KEY = "# Find this on the project you create on your Pushover.net account!"
+API_TOKEN = "zkjxx2furd@pomail.net"
+USER_KEY = "ucnhoiq6gn7uucxi8rbqef7mnmze6i"
 
 def send_notification(message):
     requests.post(
